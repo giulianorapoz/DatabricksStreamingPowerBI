@@ -89,7 +89,7 @@ Figure 12: Configuring the Text Analytics API in the Azure Portal
 Once created, click on Keys and take note of the Endpoint URL and Primary key to be used. These values will be required for Databricks to successfully call the Text Analytics API.
 
 ## Optional: Create and Mount Blob Storage
-Databricks automatically is able tocan save and write data to its internal file store. HoweverHowever, it is also possible to manually create a storage account and mount a blob store within that account directly to Databricks. If you wish to do this, simply create a new blob store within the Azure portal and reference the source via running the below mount command in a notebook with your storage account 
+Databricks automatically is able to save and write data to its internal file store. However, it is also possible to manually create a storage account and mount a blob store within that account directly to Databricks. If you wish to do this, simply create a new blob store within the Azure portal and reference the source via running the below mount command in a notebook with your storage account 
 
 ```
 access keys.
