@@ -92,7 +92,7 @@ Once created, click on Keys and take note of the Endpoint URL and Primary key to
 Databricks automatically is able to save and write data to its internal file store. However, it is also possible to manually create a storage account and mount a blob store within that account directly to Databricks. If you wish to do this, simply create a new blob store within the Azure portal and reference the source via running the below mount command in a notebook with your storage account 
 
 ```
-access keys.
+//Access keys
 dbutils.fs.mount(
 source = "wasbs://YOURCONTAINERNAME@YOURSTORAGENAME.blob.core.windows.net/", 
 mountPoint = "/mnt/YOURCHOSENFILEPATH", 
